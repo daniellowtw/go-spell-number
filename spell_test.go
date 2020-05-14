@@ -81,8 +81,16 @@ func TestTrickyNumbers(t *testing.T) {
 			number:   100,
 		},
 		{
+			expected: "one hundred one",
+			number:   101,
+		},
+		{
 			expected: "one hundred eleven",
 			number:   111,
+		},
+		{
+			expected: "one thousand one",
+			number:   1001,
 		},
 		{
 			expected: "one thousand one hundred",
